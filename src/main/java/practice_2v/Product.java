@@ -22,7 +22,7 @@ public class Product {
     }
 
     void printInfo(){
-        System.out.println(this.name +"стоят "+ this.price);
+        System.out.println("Product: " + this.name +" price "+ this.price);
 
     }
 

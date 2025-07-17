@@ -15,13 +15,11 @@ public class Circle {
         this.radius = newRadius;
     }
     double calculateArea(){
-        return 2* Math.PI * this.radius;
 
+        return Math.PI * Math.pow(this.radius ,2);
     }
     double calculateCircumference(){
-        return Math.PI * Math.pow(this.radius ,2);
-
-
+        return 2* Math.PI * this.radius;
     }
 
 }

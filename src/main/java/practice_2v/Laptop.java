@@ -4,7 +4,7 @@ public class Laptop {
     String brand;
     double price;
 
-    Laptop(String someBrand, int somePrice){
+    Laptop(String someBrand, double somePrice){
         this.brand = someBrand;
         this.price = somePrice;
 

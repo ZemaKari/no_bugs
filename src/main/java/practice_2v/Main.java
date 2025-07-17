@@ -26,7 +26,7 @@ public class Main {
         owner1.withdraw(50);
         owner1.printBalance();
         System.out.println("***Класс Point***");
-        Point point1 = new Point(6);
+        Point point1 = new Point(6, 5);
         point1.print();
         point1.setX(5);
         point1.print();
@@ -56,9 +56,9 @@ public class Main {
         prod1.applyDiscount(30);
         prod1.printInfo();
         System.out.println("***Класс Laptop***");
-        Laptop laptop1  = new Laptop("Asus", 500);
+        Laptop laptop1  = new Laptop("Asus", 500.30);
         laptop1.printInfo();
-        laptop1.price = 1000;
+        laptop1.price = 1000.20;
         laptop1.printInfo();
 
 

@@ -4,8 +4,9 @@ public class Point {
     int x;
     int y;
 
-    Point(int someX){
+    Point(int someX, int someY){
         this.x = someX;
+        this.y = someY;
 
     }
     int getX(){
